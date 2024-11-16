@@ -1,0 +1,103 @@
+/* Navigation Bar */
+
+.navbar {
+  background-color: #3d3d3d; /* Dark Charcoal for a strong header contrast */
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #ffd700;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700; /* Golden accent on hover */
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("images/hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: whitesmoke;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-family: "Merriweather", serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 30px;
+}
+
+/* Featured Sections */
+.featured-sections {
+  background-color: #f7f4e6; /* Light Grey for content background */
+  padding: 50px 0;
+}
+
+.card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+  color: #3d3d3d;
+}
+
+h5 {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.btn-custom {
+  font-family: "Lora", serif;
+  background-color: #3d3d3d;
+  color: white;
+  padding: 7px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #3d3d3d; /* Dark Charcoal for footer background */
+  color: white;
+  padding: 10px;
+}
+
+footer a {
+  color: white; /* Golden accent for footer links */
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+footer a:hover {
+  color: #ffcc99; /* Sunset Orange on hover */
+}
+
+p {
+  font-family: "Lora", serif;
+  font-size: small;
+  line-height: 1.5em;
+  animation: flip;
+}
+
+footer .d-block {
+  text-align: center;
+}
